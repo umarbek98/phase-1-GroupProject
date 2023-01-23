@@ -19,7 +19,8 @@ body {
 }
 
 #location {
-    margin-left: 80px;
+    text-align: start;
+    margin-left: 20px;
     font-size: 35px;
     font-family: "Papyrus", fantasy;
 
@@ -33,13 +34,23 @@ body {
 }
 
 #attractions {
-    margin-left: 80px;
+    margin-left: 20px;
     text-align: center;
     font-family: "Papyrus", fantasy;
 }
 
 #attractions li {
     list-style: none;
+}
+
+#island-info {
+    align-self: center;
+    padding-top: 10px;
+}
+#island-info li{
+    padding: 15px;
+    font-family: "Papyrus", fantasy;
+    font-size: 20px;
 }
 
 
