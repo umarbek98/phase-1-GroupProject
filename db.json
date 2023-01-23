@@ -1,54 +1,54 @@
 {
   "island-list-right": [
-      {
-        "id": 1,
-        "name": "Montserrat",
-        "language": [
-          "English",
-          "Montserrat Creole"
-        ],
-        "status": "British Overseas Territory",
-        "currency": "Eastern Caribbean Dollar ($XCD)",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/1200px-Flag_of_Montserrat.svg.png",
-        "capital": [
-          "Plymouth (de jure)",
-          "Brades (de facto)"
-        ],
-        "population": "4,488",
-        "attractions": [
-          "Rendezvous Bay",
-          "Montserrat Volcano Observatory",
-          "Runaway Ghaut"
-        ],
-        "reviews": [
-          "Had a wonderful time!",
-          "Loved the scuba diving"
-        ]
-      },
-      {
-          "id": 2,
-          "name": "Sint Eustatius (Statia)",
-          "language": [
-              "English",
-              "Dutch"
-          ],
-          "status": "Special Municipality of the Netherlands",
-          "currency": "US Dollar ($USD)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Sint_Eustatius.svg/2560px-Flag_of_Sint_Eustatius.svg.png",
-          "capital": "Oranjestad",
-          "population": "3,138",
-          "attractions": [
-            "Mazinga Peak",
-            "Quill/Boven National Park",
-            "Fort Oranje"
-          ],
-          "reviews": [
-            "Quiet, reserved, beautiful",
-            "Fantastic hiking"
-          ]
-      },
-      {
-        "id": 3,
+    {
+      "id": 1,
+      "name": "Sint Eustatius",
+      "language": [
+        "English",
+        "Dutch"
+      ],
+      "status": "Special Municipality of the Netherlands",
+      "currency": "US Dollar ($USD)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Sint_Eustatius.svg/2560px-Flag_of_Sint_Eustatius.svg.png",
+      "capital": "Oranjestad",
+      "population": "3,138",
+      "attractions": [
+        "Mazinga Peak",
+        "Quill/Boven National Park",
+        "Fort Oranje"
+      ],
+      "reviews": [
+        "Quiet, reserved, beautiful",
+        "Fantastic hiking"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Montserrat",
+      "language": [
+        "English",
+        "Montserrat Creole"
+      ],
+      "status": "British Overseas Territory",
+      "currency": "Eastern Caribbean Dollar ($XCD)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/1200px-Flag_of_Montserrat.svg.png",
+      "capital": [
+        "Plymouth (de jure)",
+        "Brades (de facto)"
+      ],
+      "population": "4,488",
+      "attractions": [
+        "Rendezvous Bay",
+        "Montserrat Volcano Observatory",
+        "Runaway Ghaut"
+      ],
+      "reviews": [
+        "Had a wonderful time!",
+        "Loved the scuba diving"
+      ]
+    },
+    {
+      "id": 3,
         "name": "Saba",
           "language": [
               "Dutch",
@@ -73,7 +73,26 @@
   "island-list-left": [
     {
       "id": 4,
-      "name": "Dominica (Commonwealth of Dominica)",
+      "name": "Saint Kitts & Nevis",
+      "language": "English",
+      "status": "Independent British Commonwealth",
+      "currency": "Eastern Caribbean Dollar ($XCD)",
+      "image": "https://cdn.britannica.com/22/5122-004-89773429/Flag-Saint-Kitts-and-Nevis.jpg",
+      "capital": "Basseterre",
+      "population": "47,606",
+      "attractions": [
+        "Romney Manor",
+        "St. Kitts Scenic Railway",
+        "Mount Liamuiga"
+      ],
+      "reviews": [
+        "Perfect weather",
+        "The scenic railway was incredible"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dominica",
           "language": "English",
           "status": "Independent",
           "currency": "Eastern Caribbean Dollar ($XCD)",
@@ -91,27 +110,8 @@
           ]
     },
     {
-      "id": 5,
-      "name": "Saint Kitts & Nevis (Federation of Saint Christopher and Nevis)",
-          "language": "English",
-          "status": "Independent British Commonwealth",
-          "currency": "Eastern Caribbean Dollar ($XCD)",
-          "image": "https://cdn.britannica.com/22/5122-004-89773429/Flag-Saint-Kitts-and-Nevis.jpg",
-          "capital": "Basseterre",
-          "population": "47,606",
-          "attractions": [
-            "Romney Manor",
-            "St. Kitts Scenic Railway",
-            "Mount Liamuiga"
-          ],
-          "reviews": [
-            "Perfect weather",
-            "The scenic railway was incredible"
-          ]
-    },
-    {
       "id": 6,
-      "name": "Saint Vincent & the Grenadines",
+      "name": "ST.Vincent & Grenadines",
           "language": "English",
           "status": "Independent",
           "currency": "Eastern Caribbean Dollar ($XCD)",
