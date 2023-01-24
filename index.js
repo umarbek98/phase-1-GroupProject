@@ -11,6 +11,7 @@ const locations = document.querySelector("#location")
 const attraction = document.querySelector("#attractions")
 const flag = document.querySelector("#flag")
 const comments = document.querySelector('#comments')
+const header = document.querySelector('#title')
 
 
 
@@ -30,7 +31,6 @@ fetch ("http://localhost:3000/island-list-left")
             attraction.append(attractionH1)
          islandDetails(island)
         })
-
     }) 
     islandDetails(data[0])
 })
@@ -75,15 +75,6 @@ fetch ("http://localhost:3000/island-list-right")
             attractionH1.textContent = "Attractions"
             attraction.append(attractionH1)
             islandDetails(island)
-
-            // infoLanguage.textContent = island.language
-            // infoStatus.textContent = island.status
-            // infoCurrency.textContent = island.currency
-            // infoCapital.textContent = island.capital
-            // infoPopulation.textContent = island.population
-            // attraction.textContent = island.attractions
-
-
         })
     })
 })
@@ -97,6 +88,17 @@ commentForm.addEventListener('submit', (event) => {
     const commentLI = document.createElement('li')
     commentLI.textContent = newComment
     comments.append(commentLI)
+    playSound()
 
     commentForm.reset()
+})
+
+function playSound() {
+    let audio = new Audio('assets/island-boy.mp3');
+    audio.play();
+}
+
+header.addEventListener('mouseover', (e) => {
+    let audio = new Audio('assets/tropical-intro.mp3');
+    audio.play();
 })
