@@ -9,10 +9,82 @@ body {
     height: 100%;
 }
 
-#map {
+#box {
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
+    height: 700px;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid black;  
 }
+
+#row2 {
+    flex-grow: 1;
+}
+
+#location {
+    text-align: start;
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: "Papyrus", fantasy;
+
+}
+
+#flag {
+    max-width: 300px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#attractions {
+    margin-right: 200px;
+    text-align: center;
+    font-family: "Papyrus", fantasy;
+}
+
+#attractions li {
+    list-style: none;
+}
+
+#island-info {
+    align-self: center;
+    padding-top: 10px;
+}
+#island-info li{
+    padding: 15px;
+    font-family: "Papyrus", fantasy;
+    font-size: 20px;
+}
+
+#comments {
+    align-self: center;
+    margin-left: 35px;
+    margin-top: 100px;
+    font-family: "Papyrus", fantasy;
+    flex-grow: 1;
+}
+
+#comment-form {
+    margin-left: 5px;
+    margin-top: 10px;
+    align-self: flex-end;
+    font-family: "Papyrus", fantasy;
+    
+}
+
+#comment-input {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 90px;
+}
+
+#comments li {
+    list-style: none;
+    margin: 2px;
+    font-family: "Papyrus", fantasy;
+}
+
+
 
 #title {
     text-align: center;
@@ -32,14 +104,11 @@ body {
     position: relative;
 }
 
-
+/* 
 #left-list {
     position: relative;
     max-width: 300px;
     margin-left: 15px;
-    border: 2px solid black;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.2);
     list-style: none;
     font-family: "Papyrus", fantasy;
     font-size: 50px;
@@ -49,18 +118,24 @@ body {
     position: relative;
     max-width: 300px;
     margin-left: 15px;
-    border: 2px solid black;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.2);
     list-style: none;
     font-family: "Papyrus", fantasy;
     font-size: 50px;
+} */
+
+#left-flag {
+    max-width: 300px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
-li {
-    margin-left: 50px;
+#right-flag {
+    max-width: 300px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
-#map-text {
-    position: absolute;
-}

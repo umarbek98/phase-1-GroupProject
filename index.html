@@ -11,17 +11,43 @@
 <body>
     <div id="container">
         <section id="left">
-            <ul id="left-list">
-                <!-- append left list here -->
-            </ul>
+            <div id="left-list">
+            </div>
         </section>
-        <section id="map">
-            <img src="./assets/mapbackground.jpg" alt=""/>
+        <section>
+            <div id="box">
+                <div>
+                <img id="flag" src=""/>
+                <ul id="island-info" >
+                    <li id="info-language"></li>
+                    <li id="info-status"></li>
+                    <li id="info-currency"></li>
+                    <li id="info-capital"></li>
+                    <li id="info-population"></li>
+                </ul>
+                
+                <form id="comment-form">
+                    <label for="comment">Comment</label><br>
+                    <textarea type="text" name="comment" id="comment-input"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+                </div>
+                <div id="row2">
+                    <h1 id="location"></h1>
+                    <ul id="attractions">
+                        <h2>Attractions</h2>
+                    </ul>
+                    <ul id="comments">Reviews:
+
+                    </ul>
+
+                    
+                </div>
+            </div>
         </section>
         <section id="right">
-            <ul id="right-list">
-                <!-- append right list here -->
-            </ul>
+            <div id="right-list">
+            </div>
         </section>
     </div>
     <script defer src="index.js"></script>
