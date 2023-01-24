@@ -18,9 +18,13 @@ body {
     border: 2px solid black;  
 }
 
+#row2 {
+    flex-grow: 1;
+}
+
 #location {
     text-align: start;
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 35px;
     font-family: "Papyrus", fantasy;
 
@@ -34,7 +38,7 @@ body {
 }
 
 #attractions {
-    margin-left: 20px;
+    margin-right: 200px;
     text-align: center;
     font-family: "Papyrus", fantasy;
 }
@@ -51,6 +55,33 @@ body {
     padding: 15px;
     font-family: "Papyrus", fantasy;
     font-size: 20px;
+}
+
+#comments {
+    align-self: center;
+    margin-left: 35px;
+    margin-top: 100px;
+    font-family: "Papyrus", fantasy;
+    flex-grow: 1;
+}
+
+#comment-form {
+    margin-left: 5px;
+    margin-top: 10px;
+    align-self: flex-end;
+    font-family: "Papyrus", fantasy;
+    
+}
+
+#comment-input {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 90px;
+}
+
+#comments li {
+    list-style: none;
+    margin: 2px;
+    font-family: "Papyrus", fantasy;
 }
 
 
