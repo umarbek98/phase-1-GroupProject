@@ -27,6 +27,7 @@ body {
     margin-left: 50px;
     font-size: 35px;
     font-family: "Papyrus", fantasy;
+    color: rgb(246, 198, 6)
 
 }
 
@@ -38,9 +39,12 @@ body {
 }
 
 #attractions {
-    margin-right: 200px;
+    margin-right: -120px;
     text-align: center;
     font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(128, 51, 6);
 }
 
 #attractions li {
@@ -50,11 +54,16 @@ body {
 #island-info {
     align-self: center;
     padding-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #29b594
 }
 #island-info li{
     padding: 15px;
     font-family: "Papyrus", fantasy;
     font-size: 20px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 #comments {
@@ -63,6 +72,8 @@ body {
     margin-top: 100px;
     font-family: "Papyrus", fantasy;
     flex-grow: 1;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 #comment-form {
@@ -70,6 +81,7 @@ body {
     margin-top: 10px;
     align-self: flex-end;
     font-family: "Papyrus", fantasy;
+    color: #b5298b
     
 }
 
@@ -82,6 +94,7 @@ body {
     list-style: none;
     margin: 2px;
     font-family: "Papyrus", fantasy;
+    color: #29b53e
 }
 
 
@@ -89,6 +102,8 @@ body {
 #title {
     text-align: center;
     font-family: "Papyrus", fantasy;
+    color: rgb(99, 4, 4);
+    font-weight: bold;
 }
 
 #left {
