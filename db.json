@@ -10,6 +10,7 @@
       "status": "Special Municipality of the Netherlands",
       "currency": "US Dollar ($USD)",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Sint_Eustatius.svg/2560px-Flag_of_Sint_Eustatius.svg.png",
+      "background": "assets/background.png",
       "capital": "Oranjestad",
       "population": "3,138",
       "attractions": [
@@ -32,6 +33,7 @@
       "status": "British Overseas Territory",
       "currency": "Eastern Caribbean Dollar ($XCD)",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/1200px-Flag_of_Montserrat.svg.png",
+      "background": "assets/background1.png",
       "capital": [
         "Plymouth (de jure)",
         "Brades (de facto)"
@@ -52,11 +54,12 @@
         "name": "Saba",
           "language": [
               "Dutch",
-              "Emglish"
+              "English"
       ],
           "status": "Special Municipality of the Netherlands",
           "currency": "US Dollar ($USD)",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Saba.svg/2560px-Flag_of_Saba.svg.png",
+          "background": "assets/background2.png",
           "capital": "The Bottom (De Botte)",
           "population": "1,911",
           "attractions": [
@@ -78,6 +81,7 @@
       "status": "Independent British Commonwealth",
       "currency": "Eastern Caribbean Dollar ($XCD)",
       "image": "https://cdn.britannica.com/22/5122-004-89773429/Flag-Saint-Kitts-and-Nevis.jpg",
+      "background": "assets/background3.png",
       "capital": "Basseterre",
       "population": "47,606",
       "attractions": [
@@ -97,6 +101,7 @@
           "status": "Independent",
           "currency": "Eastern Caribbean Dollar ($XCD)",
           "image": "https://flags-world.com/wp-content/uploads/2021/01/flag-dominiki-4.png",
+          "background": "assets/background4.png",
           "capital": "Roseau",
           "population": "72,412",
           "attractions": [
@@ -116,6 +121,7 @@
           "status": "Independent",
           "currency": "Eastern Caribbean Dollar ($XCD)",
           "image": "https://cdn.britannica.com/26/5126-004-9669F8B6/Flag-Saint-Vincent-and-the-Grenadines.jpg",
+          "background": "assets/background5.png",
           "capital": "Kingstown",
           "population": "104,332",
           "attractions": [

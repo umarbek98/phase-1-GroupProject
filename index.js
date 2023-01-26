@@ -29,7 +29,8 @@ fetch ("http://localhost:3000/island-list-left")
             const attractionH1 = document.createElement('h2')
             attractionH1.textContent = "Attractions"
             attraction.append(attractionH1)
-         islandDetails(island)
+            islandDetails(island)
+            document.querySelector('body').style.backgroundImage = `url("${island.background}")`;
         })
     }) 
     islandDetails(data[0])
@@ -75,6 +76,7 @@ fetch ("http://localhost:3000/island-list-right")
             attractionH1.textContent = "Attractions"
             attraction.append(attractionH1)
             islandDetails(island)
+            document.querySelector('body').style.backgroundImage = `url("${island.background}")`;
         })
     })
 })
